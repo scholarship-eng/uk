@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scholarship Portal</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f5f5f5;
+      color: #333;
+    }
+
+    /* HERO SECTION */
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1');
+      background-size: cover;
+      background-position: center;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      padding: 20px;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+    }
+
+    /* GRID SECTION */
+    .container {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      color: #0077cc;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      margin-bottom: 10px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 8px 12px;
+      background: #0077cc;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 0.9rem;
+    }
+
+    /* FOOTER */
+    footer {
+      background: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    footer p {
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div>
+      <h1>Global Scholarships</h1>
+      <p>Find opportunities to study abroad in top countries</p>
+    </div>
+  </section>
+
+  <!-- GRID SECTION -->
+  <section class="container">
+    <div class="grid">
+
+      <div class="card">
+        <h3>USA Scholarship</h3>
+        <p>Fully funded scholarship for international students in top US universities.</p>
+        <a href="#" class="btn">Apply Now</a>
+      </div>
+
+      <div class="card">
+        <h3>UK Scholarship</h3>
+        <p>Study in UK with Chevening and other government funded programs.</p>
+        <a href="#" class="btn">Apply Now</a>
+      </div>
+
+      <div class="card">
+        <h3>Canada Scholarship</h3>
+        <p>Affordable and funded opportunities in Canadian universities.</p>
+        <a href="#" class="btn">Apply Now</a>
+      </div>
+
+      <div class="card">
+        <h3>Australia Scholarship</h3>
+        <p>Explore scholarships in Australia with full tuition coverage.</p>
+        <a href="#" class="btn">Apply Now</a>
+      </div>
+
+      <div class="card">
+        <h3>Germany Scholarship</h3>
+        <p>Free education and DAAD scholarships for international students.</p>
+        <a href="#" class="btn">Apply Now</a>
+      </div>
+
+      <div class="card">
+        <h3>Turkey Scholarship</h3>
+        <p>Fully funded Turkey government scholarships for all levels.</p>
+        <a href="#" class="btn">Apply Now</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Scholarship Portal | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
